@@ -22,7 +22,7 @@ def normalize_ip_or_cidr(value):
     - 允许: IPv4 / IPv6
     - 可以不带掩码: 自动补 /32 (IPv4) 或 /128 (IPv6)
     - 带掩码: 使用 ip_network(strict=False) 校验
-    返回形如: "ip/prefixlen"
+    返回形如: "ip/prefixlen"1
     """
     v = value.strip()
     if not v:
