@@ -1,1 +1,4 @@
 # PaloAltoFw_address-command-generation
+这是一个用于生成Palo Alto Firewall的address命令的脚本
+
+运行后有GUI界面请根据操作运行
