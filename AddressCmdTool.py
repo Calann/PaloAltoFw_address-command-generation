@@ -71,7 +71,7 @@ def _read_csv_rows(path):
 
 def read_names_from_file(path):
     """
-    支持 .csv 或 .txt：
+    支持 .csv 或 .txt
     - csv: 取第一列为名称
     - txt: 每行一个名称
     """
