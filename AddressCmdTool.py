@@ -18,7 +18,7 @@ def validate_member_name(name):
 
 def normalize_ip_or_cidr(value):
     """
-    合法性校验并规范化:
+    合法性校验并规范化
     - 允许: IPv4 / IPv6
     - 可以不带掩码: 自动补 /32 (IPv4) 或 /128 (IPv6)
     - 带掩码: 使用 ip_network(strict=False) 校验
